@@ -9,7 +9,7 @@ input:
   offset_y: 0.05
 
 scheduling:
-  update_interval_minutes: 8
+  update_interval_minutes: 10
 
 image_processing:
   blur_strength: 75.0
