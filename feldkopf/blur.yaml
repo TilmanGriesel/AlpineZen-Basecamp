@@ -1,0 +1,29 @@
+config: version 0.0.3
+input:
+  url: "https://www.foto-webcam.eu/webcam/feldkopf/current/180.jpg"
+  info: "https://www.foto-webcam.eu/webcam/feldkopf/infos/"
+  provider: "https://www.foto-webcam.eu/webcam/infos/"
+  link: "https://www.foto-webcam.eu/webcam/feldkopf/"
+  crop_factor: 1.1
+  offset_x: -0.11
+  offset_y: 0.05
+
+scheduling:
+  update_interval_minutes: 10
+
+image_processing:
+  blur_strength: 75.0
+  contrast: 1.0
+  saturation: 0.7
+  brightness: -0.05
+  hue: 0.0
+  gamma: 0.8
+  black_point: 0.0
+  white_point: 1.0
+  shadow_strength: 1.0
+  sharpen_strength: 0.0
+  max_noise_opacity: 0.035
+  noise_scale: 2
+
+output:
+  save_path: "foto_webcam_eu"
