@@ -22,7 +22,7 @@ image_processing:
   white_point: 1.0
   shadow_strength: 1.0
   sharpen_strength: 0.0
-  max_noise_opacity: 0.035
+  max_noise_opacity: 0.015
   noise_scale: 2
 
 output:
