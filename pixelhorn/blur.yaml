@@ -20,15 +20,15 @@ scheduling:
   update_interval_minutes: 5
 
 image_processing:
-  blur_strength: 75.0
+  blur_strength: 180.0
   contrast: 1.0
-  saturation: 0.7
+  saturation: 0.5
   brightness: -0.05
   hue: 0.0
   gamma: 0.8
   black_point: 0.0
   white_point: 1.0
-  shadow_strength: 1.0
+  shadow_strength: 0.8
   sharpen_strength: 0.0
   max_noise_opacity: 0.035
   noise_scale: 2
