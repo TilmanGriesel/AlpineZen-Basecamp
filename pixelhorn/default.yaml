@@ -12,6 +12,7 @@ input:
   info: "https://forest.alpinezen.club"
   provider: "https://forest.alpinezen.club"
   link: "https://forest.alpinezen.club"
+  type: "synthetic"
   crop_factor: 1.0
   offset_x: 0.0
   offset_y: 0.0
